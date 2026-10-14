@@ -1,0 +1,137 @@
+{
+  "bundle": [
+    {
+      "name": "index-BcCSgRwG.js",
+      "bytes": 972193,
+      "gzipBytes": 260224
+    }
+  ],
+  "measuredAt": "2026-10-14T02:54:11.276Z",
+  "method": "CPU scene construction; no WebGL, FPS, draw calls or mobile hardware measurements",
+  "sourceSha256": "fccc8e0cad2b5ae999288113ae74adcb9ba2e3a48f8cfaaffd5f3bbb06e0273a",
+  "organizations": [
+    {
+      "id": "ind",
+      "name": "Norvik Industrial",
+      "buildMs": 266.4,
+      "meshObjects": 578,
+      "instancedBatches": 68,
+      "instances": 1149,
+      "uniqueGeometries": 229,
+      "uniqueMaterials": 113,
+      "triangleInstances": 725614,
+      "geometryBytes": 9895728,
+      "profiles": {
+        "alta": {
+          "meshObjects": 578,
+          "instancedBatches": 68,
+          "instances": 1149,
+          "uniqueGeometries": 229,
+          "uniqueMaterials": 113,
+          "triangleInstances": 725614,
+          "geometryBytes": 9895728
+        },
+        "equilibrada": {
+          "meshObjects": 578,
+          "instancedBatches": 68,
+          "instances": 1149,
+          "uniqueGeometries": 229,
+          "uniqueMaterials": 113,
+          "triangleInstances": 725614,
+          "geometryBytes": 9895728
+        },
+        "baja": {
+          "meshObjects": 578,
+          "instancedBatches": 68,
+          "instances": 1149,
+          "uniqueGeometries": 229,
+          "uniqueMaterials": 113,
+          "triangleInstances": 725614,
+          "geometryBytes": 9895728
+        }
+      }
+    },
+    {
+      "id": "ret",
+      "name": "Mercato Group",
+      "buildMs": 207.2,
+      "meshObjects": 461,
+      "instancedBatches": 60,
+      "instances": 866,
+      "uniqueGeometries": 181,
+      "uniqueMaterials": 95,
+      "triangleInstances": 511956,
+      "geometryBytes": 7889856,
+      "profiles": {
+        "alta": {
+          "meshObjects": 461,
+          "instancedBatches": 60,
+          "instances": 866,
+          "uniqueGeometries": 181,
+          "uniqueMaterials": 95,
+          "triangleInstances": 511956,
+          "geometryBytes": 7889856
+        },
+        "equilibrada": {
+          "meshObjects": 461,
+          "instancedBatches": 60,
+          "instances": 866,
+          "uniqueGeometries": 181,
+          "uniqueMaterials": 95,
+          "triangleInstances": 511956,
+          "geometryBytes": 7889856
+        },
+        "baja": {
+          "meshObjects": 461,
+          "instancedBatches": 60,
+          "instances": 866,
+          "uniqueGeometries": 181,
+          "uniqueMaterials": 95,
+          "triangleInstances": 511956,
+          "geometryBytes": 7889856
+        }
+      }
+    },
+    {
+      "id": "srv",
+      "name": "Lumen Consultores",
+      "buildMs": 115.8,
+      "meshObjects": 338,
+      "instancedBatches": 52,
+      "instances": 544,
+      "uniqueGeometries": 142,
+      "uniqueMaterials": 69,
+      "triangleInstances": 376210,
+      "geometryBytes": 6464208,
+      "profiles": {
+        "alta": {
+          "meshObjects": 338,
+          "instancedBatches": 52,
+          "instances": 544,
+          "uniqueGeometries": 142,
+          "uniqueMaterials": 69,
+          "triangleInstances": 376210,
+          "geometryBytes": 6464208
+        },
+        "equilibrada": {
+          "meshObjects": 338,
+          "instancedBatches": 52,
+          "instances": 544,
+          "uniqueGeometries": 142,
+          "uniqueMaterials": 69,
+          "triangleInstances": 376210,
+          "geometryBytes": 6464208
+        },
+        "baja": {
+          "meshObjects": 338,
+          "instancedBatches": 52,
+          "instances": 544,
+          "uniqueGeometries": 142,
+          "uniqueMaterials": 69,
+          "triangleInstances": 376210,
+          "geometryBytes": 6464208
+        }
+      }
+    }
+  ]
+}

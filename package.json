@@ -1,0 +1,51 @@
+{
+  "name": "nextdash-3d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "check:interactions": "node scripts/check-interactions.mjs",
+    "preview": "vite preview",
+    "check:world": "node scripts/check-world.mjs",
+    "measure:world": "node scripts/measure-world.mjs",
+    "test": "node scripts/check-interactions.mjs && node scripts/check-world.mjs && node scripts/check-object-pass.mjs && node scripts/check-assets.mjs",
+    "check:objects": "node scripts/check-object-pass.mjs",
+    "check:assets": "node scripts/check-assets.mjs",
+    "assets:build": "bash scripts/assets/build-all.sh"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "@react-three/postprocessing": "^3.2.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "lucide-react": "^1.55.0",
+    "motion": "^14.1.0",
+    "postprocessing": "^6.39.5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "meshoptimizer": "^1.3.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.69.0",
+    "vite": "^8.3.0"
+  }
+}

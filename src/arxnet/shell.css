@@ -1,0 +1,22 @@
+/* Hover states for the Arxnet shell. Inline styles set the resting look,
+   so hover rules need !important to win over them. */
+.ax-h2:hover { background: var(--surface2) !important; }
+.ax-h3:hover { background: var(--surface3) !important; }
+.ax-hl:hover { border-color: var(--line2) !important; }
+.ax-hlb:hover { border-color: var(--line2) !important; background: var(--surface3) !important; }
+.ax-hi:hover { color: var(--ink) !important; }
+.ax-hb:hover { filter: brightness(1.05); }
+
+.ax-root a { color: inherit; text-decoration: none; }
+.ax-root a:hover { color: #cff56a; }
+.ax-root button { font-family: inherit; }
+.ax-root input::placeholder { color: inherit; opacity: 0.5; }
+.ax-root button:focus-visible { outline: 2px solid var(--accentLine); outline-offset: 2px; }
+.ax-root ::-webkit-scrollbar { width: 0; height: 0; }
+
+@media (max-width: 759px) {
+  .ax-topbar > :first-child { width: 100%; padding-left: 8px !important; }
+  .ax-topbar > :first-child > button { flex: 1; overflow: hidden; }
+  .ax-brand { flex: none; padding-right: 0 !important; }
+  .ax-brand > span { display: none; }
+}
